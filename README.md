@@ -79,6 +79,18 @@ Option|Possible values|Default|Description
 `maxWidth`|`string`|`100%`|The maximum width of the the displayed image|
 `maxHeight`|`string`|`100%`|The maximum height of of the displayed image|
 
+## Sample `manifest.json`
+
+```json
+{
+    "lastUpdated": "2026-05-22T17:33-06:00",
+    "images": "https://github.com/MetroCS/MMM-WebsiteImages/sample_manifest.json",
+        "https://github.com/MetroCS/MMM-WebsiteImages/example_1.png",
+        "https://github.com/MetroCS/MMM-WebsiteImages/example_2.png"
+    ]
+}
+```
+
 ## Developer commands
 
 - `npm install` - Install devDependencies like ESLint.
@@ -92,3 +104,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 ## Changelog
 
 All notable changes to this project will be documented in the [CHANGELOG.md](CHANGELOG.md) file.
+
+---
+MMM-WebsiteImages, Copyright © 2026 Dr. Jody Paul, is licensed under the MIT License (MIT).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
