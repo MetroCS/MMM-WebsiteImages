@@ -1,0 +1,12 @@
+.mmm-website-images {
+  text-align: center;
+}
+
+.mmm-website-images-photo {
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.mmm-website-images-caption {
+  margin-top: 0.5em;
+}
