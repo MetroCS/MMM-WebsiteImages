@@ -70,19 +70,20 @@ Configuration with all options:
 
 Option|Possible values|Default|Description
 ------|------|------|-----------
-`exampleContent`|`string`|not available|The content to show on the page
-
-## Sending notifications to the module
-
-Notification|Description
-------|-----------
-`TEMPLATE_RANDOM_TEXT`|Payload must contain the text that needs to be shown on this module
+`manifestURL`|`string`|not available|The URL of the manifest JSON file|
+`updateInterval`|`number`|600000|The time (in milliseconds) between updates of the manifest file (default 10 minutes)|
+`imageInterval`|`number`|30000|The time (in milliseconds) between image changes (default 30 seconds)|
+`animationSpeed`|`number`|1000|The speed (in milliseconds) of the image transition animation (default 1 second)|
+`randomize`|`boolean`|`false`|Whether to randomize the order in which images are shown|
+`showLastUpdated`|`boolean`|`false`|Whether to show the last updated time of the image|
+`maxWidth`|`string`|`100%`|The maximum width of the the displayed image|
+`maxHeight`|`string`|`100%`|The maximum height of of the displayed image|
 
 ## Developer commands
 
 - `npm install` - Install devDependencies like ESLint.
-- `node --run lint` - Run linting and formatter checks.
-- `node --run lint:fix` - Fix linting and formatter issues.
+- `npm run lint:js` - Lint JavaScript files.
+- `npm run lint:css` - Lint CSS files.
 
 ## License
 
