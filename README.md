@@ -1,15 +1,11 @@
-# MMM-Template
-Use this template for creating new MagicMirror² modules.
+# MMM-WebsiteImages
 
-See the [wiki page](https://github.com/Dennis-Rosenbaum/MMM-Template/wiki) for an in depth overview of how to get started.
-
-# MMM-Template
-
-*MMM-Template* is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) that displays ... [Module description]
+*MMM-WebsiteImages* is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) that displays images retrieved from a website.
+The module checks for a JSON file at the specified URL and uses that information to retrieve, cache, and display images.
 
 ## Screenshot
 
-![Example of MMM-Template](./example_1.png)
+![Example of MMM-WebsiteImages display](./example_1.png)
 
 ## Installation
 
@@ -19,7 +15,9 @@ In your terminal, go to the modules directory and clone the repository:
 
 ```bash
 cd ~/MagicMirror/modules
-git clone [GitHub url]
+git clone https://github.com/MetroCS/MMM-WebsiteImages
+cd MMM-WebsiteImages
+npm install --only=prod
 ```
 
 ### Update
@@ -27,8 +25,9 @@ git clone [GitHub url]
 Go to the module directory and pull the latest changes:
 
 ```bash
-cd ~/MagicMirror/modules/MMM-Template
+cd ~/MagicMirror/modules/MMM-WebsiteImages
 git pull
+npm install --only=prod
 ```
 
 ## Configuration
@@ -41,7 +40,7 @@ Minimal configuration to use the module:
 
 ```js
     {
-        module: 'MMM-Template',
+        module: 'MMM-WebsiteImages',
         position: 'lower_third'
     },
 ```
@@ -50,7 +49,7 @@ Configuration with all options:
 
 ```js
     {
-        module: 'MMM-Template',
+        module: 'MMM-WebsiteImages',
         position: 'lower_third',
         config: {
             exampleContent: 'Welcome world'
