@@ -41,7 +41,9 @@ Minimal configuration to use the module:
 ```js
     {
         module: 'MMM-WebsiteImages',
-        position: 'lower_third'
+        config: {
+            manifestUrl: "YOUR_URL_HERE/manifest.json"
+        }
     },
 ```
 
@@ -52,7 +54,14 @@ Configuration with all options:
         module: 'MMM-WebsiteImages',
         position: 'lower_third',
         config: {
-            exampleContent: 'Welcome world'
+            manifestUrl: "YOUR_URL_HERE/manifest.json",
+            updateInterval: 10 * 60 * 1000,
+            imageInterval: 30 * 1000,
+            animationSpeed: 1000,
+            randomize: false,
+            showLastUpdated: false,
+            maxWidth: "100%",
+            maxHeight: "100%"
         }
     },
 ```
