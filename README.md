@@ -84,7 +84,7 @@ Option|Possible values|Default|Description
 ```json
 {
     "lastUpdated": "2026-05-22T17:33-06:00",
-    "images": "https://github.com/MetroCS/MMM-WebsiteImages/sample_manifest.json",
+    "images": [
         "https://github.com/MetroCS/MMM-WebsiteImages/example_1.png",
         "https://github.com/MetroCS/MMM-WebsiteImages/example_2.png"
     ]
