@@ -1,8 +1,8 @@
 {
-  "name": "mmm-template",
+  "name": "mmm-websiteimages",
   "version": "1.0.0",
-  "description": "[Module description]",
-  "main": "MMM-Template.js",
+  "description": "A MagicMirror module that displays images from a website manifest and caches them locally for offline use.",
+  "main": "MMM-WebsiteImages.js",
   "scripts": {
     "lint": "eslint",
     "lint:fix": "eslint --fix",
@@ -10,17 +10,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+[GitHub url].git"
+    "url": "git+https://github.com/MetroCS/MMM-WebsiteImages.git"
   },
   "keywords": [
-    "template"
+    "magicmirror",
+    "magicmirror2",
+    "module",
+    "images",
+    "slideshow",
+    "cache",
+    "offline"
   ],
-  "author": "[Author]",
+  "author": "Jody Paul",
   "license": "MIT",
   "bugs": {
-    "url": "[GitHub url]/issues"
+    "url": "https://github.com/MetroCS/MMM-WebsiteImages/issues"
   },
-  "homepage": "[GitHub url]#readme",
+  "homepage": "https://github.com/MetroCS/MMM-WebsiteImages#readme",
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@eslint/css": "^0.9.0",
     "@eslint/js": "^9.30.1",
