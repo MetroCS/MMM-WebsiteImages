@@ -1,6 +1,6 @@
 Module.register("MMM-WebsiteImages", {
   defaults: {
-    manifestUrl: "https://jodypaul.com/mirror/images/manifest.json",
+    manifestUrl: "https://raw.githubusercontent.com/MetroCS/MMM-WebsiteImages/main/sample_manifest.json",
     updateInterval: 10 * 60 * 1000,
     imageInterval: 30 * 1000,
     animationSpeed: 1000,
