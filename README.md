@@ -86,7 +86,7 @@ Option|Possible values|Default|Description
     "lastUpdated": "2026-05-22T18:53-06:00",
     "images": [
         "https://raw.githubusercontent.com/MetroCS/MMM-WebsiteImages/main/example_1.png",
-        "https://raw.githubsercontent.com/MetroCS/MMM-WebsiteImages/main/example_2.png"
+        "https://raw.githubusercontent.com/MetroCS/MMM-WebsiteImages/main/example_2.png"
     ]
 }
 ```
