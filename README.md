@@ -83,10 +83,10 @@ Option|Possible values|Default|Description
 
 ```json
 {
-    "lastUpdated": "2026-05-22T17:33-06:00",
+    "lastUpdated": "2026-05-22T18:53-06:00",
     "images": [
-        "https://github.com/MetroCS/MMM-WebsiteImages/example_1.png",
-        "https://github.com/MetroCS/MMM-WebsiteImages/example_2.png"
+        "https://raw.githubusercontent.com/MetroCS/MMM-WebsiteImages/main/example_1.png",
+        "https://raw.githubsercontent.com/MetroCS/MMM-WebsiteImages/main/example_2.png"
     ]
 }
 ```
