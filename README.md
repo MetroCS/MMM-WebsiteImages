@@ -73,7 +73,7 @@ Configuration with all options:
 Option|Possible values|Default|Description
 ------|------|------|-----------
 `manifestURL`|`string`|   |The URL of the manifest JSON file|
-`updateInterval`|`number`|600000|The time (in milliseconds) between updates of the manifest file (default 10 minutes)|
+`updateInterval`|`number`|600000|The time (in milliseconds) between fetches of the manifest file (default 10 minutes)|
 `imageInterval`|`number`|30000|The time (in milliseconds) between image changes (default 30 seconds)|
 `animationSpeed`|`number`|1000|The speed (in milliseconds) of the image transition animation (default 1 second)|
 `randomize`|`boolean`|`false`|Whether to randomize the order in which images are shown|
