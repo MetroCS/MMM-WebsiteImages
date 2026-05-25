@@ -1,4 +1,4 @@
-# Using MMM-WebsiteImages
+# About MMM-WebsiteImages
 
 MMM-WebsiteImages is a MagicMirror module that allows you to display a sequence of images from accessible URLs.
 The supported image types include the standard, web-friendly image file formats like JPG/JPEG, PNG, GIF, WebP, BMP, and SVG.
@@ -32,7 +32,7 @@ Here is an example:
 ```
 Note the use of fully-qualified URLs for the images.
 This enables the module to work with images that are hosted on multiple servers, use multiple protocols,
-as well as images that are available locally (e.g., file://, ftp://, https://, nfs://, smb://, s3://)
+as well as images that are available locally (e.g., <samp>file://, ftp://, https://, nfs://, smb://, s3://</samp>)
 
 ## How the module works
 **Automated Updates:** The backend of MMM-WebsiteImages uses the manifest to determine whether there have been changes since the last time it was checked and identify which images need to be added or removed. It fetches the manifest on a fixed time interval, configurable by the user with a default of every 10 minutes.
