@@ -1,0 +1,4 @@
+theme: jekyll-theme-slate
+title: MMM-WebsiteImages Module
+description: MagicMirror Module to display images from external websites
+repository: MetroCS/MMM-WebsiteImages
