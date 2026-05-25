@@ -1,7 +1,7 @@
 # MMM-WebsiteImages
 
-*MMM-WebsiteImages* is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) that displays images retrieved from a website.
-The module checks for a JSON file at the specified URL and uses that information to retrieve, cache, and display images.
+*MMM-WebsiteImages* is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) that displays images retrieved from from websites or other sources.
+The module checks for a JSON file at a specified URL and uses that information to retrieve, cache, and display images.
 
 For more information about usage and how the module works, see [About MMM-WebsiteImages](About_MMM-WebsiteImages.md).
 
